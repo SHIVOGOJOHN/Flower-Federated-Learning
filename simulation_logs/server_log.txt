@@ -1,0 +1,255 @@
+2025-09-25 07:37:12.832376: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-25 07:37:14.748307: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-09-25 07:37:21.996483: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+[92mINFO [0m:      Starting Flower server, config: num_rounds=10, no round_timeout
+[92mINFO [0m:      Flower ECE: gRPC server running (10 rounds), SSL is disabled
+[92mINFO [0m:      [INIT]
+[92mINFO [0m:      Using initial global parameters provided by strategy
+[92mINFO [0m:      Starting evaluation of initial global parameters
+[92mINFO [0m:      Evaluation returned no results (`None`)
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 1]
+[92mINFO [0m:      configure_fit: strategy sampled 2 clients (out of 2)
+[92mINFO [0m:      aggregate_fit: received 2 results and 0 failures
+[93mWARNING [0m:   No fit_metrics_aggregation_fn provided
+C:\Users\adm\AppData\Local\Programs\Python\Python311\Lib\site-packages\keras\src\backend\tensorflow\core.py:171: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments.
+  return np.array(x)
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 2]
+INFO:flwr:[ROUND 2]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 3]
+INFO:flwr:[ROUND 3]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 4]
+INFO:flwr:[ROUND 4]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 5]
+INFO:flwr:[ROUND 5]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 6]
+INFO:flwr:[ROUND 6]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 7]
+INFO:flwr:[ROUND 7]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 8]
+INFO:flwr:[ROUND 8]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 9]
+INFO:flwr:[ROUND 9]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [ROUND 10]
+INFO:flwr:[ROUND 10]
+[92mINFO [0m:      configure_fit: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_fit: received 3 results and 0 failures
+INFO:flwr:aggregate_fit: received 3 results and 0 failures
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[92mINFO [0m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+INFO:flwr:configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [0m:      aggregate_evaluate: received 3 results and 0 failures
+INFO:flwr:aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [0m:      
+INFO:flwr:
+[92mINFO [0m:      [SUMMARY]
+INFO:flwr:[SUMMARY]
+[92mINFO [0m:      Run finished 10 round(s) in 138.16s
+INFO:flwr:Run finished 10 round(s) in 138.16s
+[92mINFO [0m:      	History (loss, distributed):
+INFO:flwr:	History (loss, distributed):
+[92mINFO [0m:      		round 1: 0.21823910834654323
+INFO:flwr:		round 1: 0.21823910834654323
+[92mINFO [0m:      		round 2: 0.2034805512653207
+INFO:flwr:		round 2: 0.2034805512653207
+[92mINFO [0m:      		round 3: 0.21252894415607992
+INFO:flwr:		round 3: 0.21252894415607992
+[92mINFO [0m:      		round 4: 0.22374625897632455
+INFO:flwr:		round 4: 0.22374625897632455
+[92mINFO [0m:      		round 5: 0.2361278255593102
+INFO:flwr:		round 5: 0.2361278255593102
+[92mINFO [0m:      		round 6: 0.24749200713803182
+INFO:flwr:		round 6: 0.24749200713803182
+[92mINFO [0m:      		round 7: 0.254227766310269
+INFO:flwr:		round 7: 0.254227766310269
+[92mINFO [0m:      		round 8: 0.26263413655589213
+INFO:flwr:		round 8: 0.26263413655589213
+[92mINFO [0m:      		round 9: 0.2695223757962011
+INFO:flwr:		round 9: 0.2695223757962011
+[92mINFO [0m:      		round 10: 0.27846880446908606
+INFO:flwr:		round 10: 0.27846880446908606
+[92mINFO [0m:      	History (metrics, distributed, evaluate):
+INFO:flwr:	History (metrics, distributed, evaluate):
+[92mINFO [0m:      	{'accuracy': [(1, 0.8990565954514269),
+INFO:flwr:	{'accuracy': [(1, 0.8990565954514269),
+[92mINFO [0m:      	              (2, 0.9141509431713032),
+INFO:flwr:	              (2, 0.9141509431713032),
+[92mINFO [0m:      	              (3, 0.9207547172060553),
+INFO:flwr:	              (3, 0.9207547172060553),
+[92mINFO [0m:      	              (4, 0.9235849065600701),
+INFO:flwr:	              (4, 0.9235849065600701),
+[92mINFO [0m:      	              (5, 0.9245283153821837),
+INFO:flwr:	              (5, 0.9245283153821837),
+[92mINFO [0m:      	              (6, 0.9254716972135147),
+INFO:flwr:	              (6, 0.9254716972135147),
+[92mINFO [0m:      	              (7, 0.9273584946146551),
+INFO:flwr:	              (7, 0.9273584946146551),
+[92mINFO [0m:      	              (8, 0.9283018899413774),
+INFO:flwr:	              (8, 0.9283018899413774),
+[92mINFO [0m:      	              (9, 0.9264151060356284),
+INFO:flwr:	              (9, 0.9264151060356284),
+[92mINFO [0m:      	              (10, 0.9264151060356284)]}
+INFO:flwr:	              (10, 0.9264151060356284)]}
+[92mINFO [0m:      
+INFO:flwr:
+Saving round 1 aggregated model...
+Round 1: Aggregated Loss: 0.21823910834654323, Aggregated Metrics: {'accuracy': 0.8990565954514269}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 1 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 1 entries.
+Saving round 2 aggregated model...
+Round 2: Aggregated Loss: 0.2034805512653207, Aggregated Metrics: {'accuracy': 0.9141509431713032}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 2 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 2 entries.
+Saving round 3 aggregated model...
+Round 3: Aggregated Loss: 0.21252894415607992, Aggregated Metrics: {'accuracy': 0.9207547172060553}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 3 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 3 entries.
+Saving round 4 aggregated model...
+Round 4: Aggregated Loss: 0.22374625897632455, Aggregated Metrics: {'accuracy': 0.9235849065600701}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 4 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 4 entries.
+Saving round 5 aggregated model...
+Round 5: Aggregated Loss: 0.2361278255593102, Aggregated Metrics: {'accuracy': 0.9245283153821837}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 5 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 5 entries.
+Saving round 6 aggregated model...
+Round 6: Aggregated Loss: 0.24749200713803182, Aggregated Metrics: {'accuracy': 0.9254716972135147}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 6 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 6 entries.
+Saving round 7 aggregated model...
+Round 7: Aggregated Loss: 0.254227766310269, Aggregated Metrics: {'accuracy': 0.9273584946146551}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 7 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 7 entries.
+Saving round 8 aggregated model...
+Round 8: Aggregated Loss: 0.26263413655589213, Aggregated Metrics: {'accuracy': 0.9283018899413774}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 8 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 8 entries.
+Saving round 9 aggregated model...
+Round 9: Aggregated Loss: 0.2695223757962011, Aggregated Metrics: {'accuracy': 0.9264151060356284}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 9 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 9 entries.
+Saving round 10 aggregated model...
+Round 10: Aggregated Loss: 0.27846880446908606, Aggregated Metrics: {'accuracy': 0.9264151060356284}
+Ledger updated on GitHub for SHIVOGOJOHN/FedSysDashboard with 10 entries.
+Attempting to update second ledger repository: SHIVOGOJOHN/BlockchainAI
+Ledger updated on GitHub for SHIVOGOJOHN/BlockchainAI with 10 entries.
